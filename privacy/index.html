@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Money Pi</title>
+<meta name="description" content="Privacy Policy for Money Pi, an AI-powered budget tracker published by i0 Labs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300..700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root,[data-theme="light"]{--color-bg:#f7f6f2;--color-surface:#f9f8f5;--color-surface-2:#fbfbf9;--color-border:#d4d1ca;--color-text:#28251d;--color-text-muted:#7a7974;--color-text-faint:#bab9b4;--color-primary:#ec5e27;--color-primary-hover:#c44a19;--color-divider:#dcd9d5;--font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans','Helvetica Neue',sans-serif;--text-xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--text-sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);--text-base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--text-lg:clamp(1.125rem,1rem + 0.75vw,1.5rem);--text-xl:clamp(1.5rem,1.2rem + 1.25vw,2.25rem);--space-1:0.25rem;--space-2:0.5rem;--space-3:0.75rem;--space-4:1rem;--space-6:1.5rem;--space-8:2rem;--space-12:3rem;--space-16:4rem;--radius-md:0.5rem;--radius-lg:0.75rem;--shadow-sm:0 1px 2px oklch(0.2 0.01 80/0.06);--shadow-md:0 4px 12px oklch(0.2 0.01 80/0.08);--transition-interactive:180ms cubic-bezier(0.16,1,0.3,1);}
+[data-theme="dark"]{--color-bg:#171614;--color-surface:#1c1b19;--color-surface-2:#201f1d;--color-border:#393836;--color-text:#cdccca;--color-text-muted:#797876;--color-text-faint:#5a5957;--color-primary:#f1794a;--color-primary-hover:#f6946e;--color-divider:#262523;}
+@media(prefers-color-scheme:dark){:root:not([data-theme]){--color-bg:#171614;--color-surface:#1c1b19;--color-surface-2:#201f1d;--color-border:#393836;--color-text:#cdccca;--color-text-muted:#797876;--color-text-faint:#5a5957;--color-primary:#f1794a;--color-primary-hover:#f6946e;--color-divider:#262523;}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;scroll-behavior:smooth;}
+body{min-height:100dvh;line-height:1.7;font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background-color:var(--color-bg);}
+h1,h2,h3{text-wrap:balance;line-height:1.2;}
+p,li{text-wrap:pretty;max-width:72ch;}
+a{color:var(--color-primary);transition:color var(--transition-interactive);}
+a:hover{color:var(--color-primary-hover);}
+button{cursor:pointer;background:none;border:none;font:inherit;color:inherit;transition:color var(--transition-interactive),background var(--transition-interactive);}
+.page-wrapper{max-width:720px;margin-inline:auto;padding:var(--space-16) var(--space-6);}
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:var(--space-4) var(--space-6);border-bottom:1px solid var(--color-divider);position:sticky;top:0;background:var(--color-bg);z-index:10;}
+.logo{display:flex;align-items:center;gap:var(--space-2);font-family:var(--font-display);font-size:var(--text-lg);color:var(--color-text);text-decoration:none;}
+.logo svg{color:var(--color-primary);}
+.theme-toggle{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-md);color:var(--color-text-muted);}
+.theme-toggle:hover{background:var(--color-surface);color:var(--color-text);}
+.policy-hero{padding:var(--space-12) 0 var(--space-8);}
+.policy-hero .eyebrow{font-size:var(--text-xs);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-primary);margin-bottom:var(--space-3);}
+.policy-hero h1{font-family:var(--font-display);font-size:var(--text-xl);color:var(--color-text);margin-bottom:var(--space-4);}
+.policy-hero .meta{font-size:var(--text-sm);color:var(--color-text-muted);}
+.divider{height:1px;background:var(--color-divider);margin:var(--space-8) 0;}
+.policy-section{margin-bottom:var(--space-8);}
+.policy-section h2{font-family:var(--font-display);font-size:var(--text-lg);color:var(--color-text);margin-bottom:var(--space-4);}
+.policy-section p{color:var(--color-text-muted);margin-bottom:var(--space-4);}
+.policy-section p:last-child{margin-bottom:0;}
+.policy-section ul{list-style:none;padding:0;margin-bottom:var(--space-4);}
+.policy-section ul li{display:flex;align-items:flex-start;gap:var(--space-3);color:var(--color-text-muted);padding:var(--space-2) 0;border-bottom:1px solid var(--color-divider);}
+.policy-section ul li:last-child{border-bottom:none;}
+.policy-section ul li .dot{width:6px;height:6px;border-radius:50%;background:var(--color-primary);margin-top:0.55em;flex-shrink:0;}
+.highlight-box{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-6);margin:var(--space-6) 0;}
+.highlight-box p{color:var(--color-text-muted);margin:0;}
+.highlight-box strong{color:var(--color-text);}
+.policy-footer{padding-top:var(--space-8);border-top:1px solid var(--color-divider);font-size:var(--text-sm);color:var(--color-text-faint);text-align:center;}
+.policy-footer a{color:var(--color-text-muted);}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="../" class="logo">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-label="Money Pi logo">
+      <circle cx="14" cy="14" r="11" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M14 3 A11 11 0 0 1 25 14 L14 14 Z" fill="currentColor"/>
+    </svg>
+    Money Pi
+  </a>
+  <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+  </button>
+</header>
+
+<main class="page-wrapper">
+
+  <div class="policy-hero">
+    <p class="eyebrow">Legal</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Money Pi — AI-Powered Budget Tracker &nbsp;·&nbsp; Published by i0 Labs &nbsp;·&nbsp; Last updated: September 30, 2026</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <section class="policy-section">
+    <h2>Who We Are</h2>
+    <p>Money Pi ("the App", "we", "us") is an AI-powered personal budget tracker for iPhone and Android. The App is developed and published by <strong>i0 Labs</strong>, the app division of i0, operated by <strong>Sarath Ramesh</strong> as the sole proprietor and account holder. All references to "we" in this policy refer to i0 Labs / Sarath Ramesh.</p>
+    <div class="highlight-box">
+      <p><strong>The short version:</strong> Your personal budget data stays on your device. We use your microphone only when you log an expense by voice. An account is optional and is only needed for voice logging and shared Groups. We do not sell your personal data and we do not track you across other apps or websites. The iPhone app has no ads.</p>
+    </div>
+  </section>
+
+  <section class="policy-section">
+    <h2>Permissions We Request</h2>
+    <ul>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Microphone</strong> (iPhone and Android) — Used only while you hold the voice button to log an expense. The recording is sent to our server for transcription and is not stored by us.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Speech Recognition</strong> (iPhone) — Used to turn what you say into an expense entry. Speech recognition on iPhone may be performed by Apple under Apple's privacy policy.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Notification access</strong> (Android, optional) — If you turn on auto-detect, the App reads bank and UPI payment notifications to suggest transactions. They are read and processed on your device and are not uploaded to us.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Display over other apps and notifications</strong> (Android, optional) — Used for the quick-log bubble and for transaction review reminders.</span></li>
+    </ul>
+    <p>The App does not request access to your camera, photos, contacts, or location.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Data We Collect</h2>
+    <p>You can use manual expense tracking without an account. We collect the following only when you use the related feature:</p>
+    <ul>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Account details</strong> — If you sign in (Sign in with Apple on iPhone, Google on Android, or an email code on either), we store your email address and a user ID. If you use Sign in with Apple and choose to share your name, we store it as your display name. If you choose Apple's "Hide My Email", we receive only the relay address.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Voice audio and transcripts</strong> — When you log by voice, the recording and the resulting text are sent through our server to our AI provider to be transcribed and turned into an expense entry. We do not keep the audio or the transcript on our servers.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Voice usage count</strong> — We keep a monthly count of voice entries per user ID to apply the fair-use limit.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Shared Groups data</strong> — If you use Groups, the shared expenses (amount, category, note, who paid, how it is split), group names, and members' display names are stored in our cloud database so that group members can see them.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Diagnostics</strong> — Crash and error reports that help us fix bugs. They do not include your financial records.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Purchase status</strong> (Android only) — Whether you have an active Money Pi Pro subscription. We never receive your card, UPI, or bank details.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Advertising identifier</strong> (Android only) — On the free plan, ads are served by Google AdMob, which may use your device's advertising ID subject to your consent choices.</span></li>
+    </ul>
+    <p>All of the above is used to provide the App's features. On iPhone, none of it is used for advertising or tracking.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Data That Stays on Your Device</h2>
+    <p>Your personal transactions, accounts, budgets, categories, trips, recurring rules, and settings are stored only on your device, including the App's local backup file. We cannot see this data. Deleting the App removes it.</p>
+    <p>On Android you can optionally back up to a Google Sheet in your own Google Drive. The App can only access the sheet it creates or that you pick, and that data is held by Google under your Google account, not by us.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Ads and Tracking</h2>
+    <p><strong>iPhone:</strong> The iPhone app contains no ads and no advertising SDKs, and does not track you across apps or websites owned by other companies.</p>
+    <p><strong>Android:</strong> The free plan shows ads served by Google AdMob. Where required, you are asked for consent before personalised ads are shown. Money Pi Pro removes ads.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Subscriptions and Payments</h2>
+    <p><strong>iPhone:</strong> The iPhone app currently has no subscription and no in-app purchases; all features are included.</p>
+    <p><strong>Android:</strong> Money Pi Pro is an optional auto-renewing subscription sold and billed entirely through Google Play Billing. Billing, renewals, and cancellations are managed in your Google Play account.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Third-Party Services</h2>
+    <p>We use a limited set of service providers, each only for its stated purpose:</p>
+    <ul>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Supabase</strong> — Account sign-in and the Groups database. See <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase's Privacy Policy</a>.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Cloudflare</strong> — Hosts our server that relays voice requests and keeps the usage count. See <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare's Privacy Policy</a>.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Groq</strong> — AI provider that transcribes voice audio and extracts the expense details. See <a href="https://groq.com/privacy-policy" target="_blank" rel="noopener noreferrer">Groq's Privacy Policy</a>.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Apple</strong> — Sign in with Apple and speech recognition on iPhone. See <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Sentry</strong> — Crash and error diagnostics. See <a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer">Sentry's Privacy Policy</a>.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">Google</strong> (Android only) — Google sign-in, Google Sheets backup, Google Play Billing, and Google AdMob. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</span></li>
+      <li><span class="dot"></span><span><strong style="color:var(--color-text)">RevenueCat</strong> (Android only) — Manages subscription status. See <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat's Privacy Policy</a>.</span></li>
+    </ul>
+    <p>We do not sell your personal or financial data, and we do not share it with data brokers.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Data Retention &amp; Deleting Your Account</h2>
+    <p>Voice audio is processed only for the duration of the request. Account and Groups data is kept until you delete your account.</p>
+    <p>You can delete your account at any time inside the App: <strong>Settings &rarr; Account &rarr; Delete Account</strong>. This permanently removes your account and the cloud data linked to it. You can also email us at the address below and we will delete it for you.</p>
+    <p>We recommend keeping your device and the App updated to benefit from the latest security improvements.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Children's Privacy</h2>
+    <p>Money Pi is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can take appropriate action.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, the "Last updated" date at the top of this page will be revised. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section class="policy-section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or our data practices, or want your data deleted, please contact us at:</p>
+    <div class="highlight-box">
+      <p><strong>i0 Labs — Money Pi Support</strong><br>
+      Operated by Sarath Ramesh<br>
+      Address: 68, Rayar St, Goburajapuram, Papanasam TK, Thanjavur DT – 614205, Tamil Nadu, India<br>
+      Email: <a href="mailto:sarathramesh.official@gmail.com">sarathramesh.official@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer class="policy-footer">
+    <p><a href="../privacy/">Privacy Policy</a> &nbsp;·&nbsp; <a href="../terms/">Terms &amp; Conditions</a></p>
+    <p style="margin-top:var(--space-3)">© 2026 i0 Labs. Money Pi is a product of i0 Labs, operated by Sarath Ramesh.</p>
+  </footer>
+
+</main>
+
+<script>
+(function(){
+  const t=document.querySelector('[data-theme-toggle]'),r=document.documentElement;
+  let d=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+  r.setAttribute('data-theme',d);
+  t&&t.addEventListener('click',()=>{
+    d=d==='dark'?'light':'dark';
+    r.setAttribute('data-theme',d);
+    t.setAttribute('aria-label','Switch to '+(d==='dark'?'light':'dark')+' mode');
+    t.innerHTML=d==='dark'?
+      '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':
+      '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  });
+})();
+</script>
+</body>
+</html>
